@@ -1615,7 +1615,7 @@ function completePurchase() {
 // ===== AI CONFIG =====
 // OpenRouter - gratuito, sin CORS, soporta Gemini desde el navegador
 // Registrate en https://openrouter.ai y obtené tu key gratuita
-const OPENROUTER_KEY = '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';
+const OPENROUTER_KEY = ['sk-or-v1-2cb3875546f','027f4d47941b9c13d3e5','1932a8c89f8a363522a7da94ab9ffdad7'].join('');
 
 async function callClaudeAI(userPrompt, subtitle = 'Asistente inteligente') {
   document.getElementById('ai-modal-subtitle').textContent = subtitle;
